@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css"> <!--memanggil style.css-->
+    <title>Taylor Swift Concert Tickets</title> <!--Judul web-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <!--membuat kartu untuk konser taylor-->
+            <div class="card">
+                <div class="content-container">
+                    <!--Gambar Taylor-->
+                    <img src="https://i.pinimg.com/736x/d5/9a/6d/d59a6d6de2ca66ffe647f6733e68267d.jpg" alt="Taylor">
+                    <div class="login">
+                        <!--judul formulir login-->
+                        <h2>Login</h2>
+                        <form>
+                            <!--label untuk username-->
+                            <label for="username">Username: </label>
+                            <input type="text" id="username" placeholder="Username" />
+                            <!--label untuk password-->
+                            <label for="password">Password: </label>
+                            <input type="password" id="password" placeholder="Password" />
+                            <!--untuk tombol login-->
+                            <button onclick="klik()" type="submit">Login</button>
+                            <!--menampilkan waktu-->
+                            <p id="waktu"></p>
+                        </form>
+                    </div>
+                </div>
+                <!--membuat deskripsi-->
+                <div class="text">
+                    <!--judul konser-->
+                    <h1>Taylor Swift Konser</h1>
+                    <!-- Deskripsi Konser -->
+                    <p>Siap-siap untuk pengalaman konser yang tak terlupakan bersama Taylor Swift! Dapatkan tiketmu
+                        sekarang dan menjadi bagian dari acara luar biasa ini.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--menambahkan script js untuk login-->
+    <script>
+        function klik() {
+            alert("Login berhasil");
+        }
+    </script>
+    <!--memanggil javascript-->
+    <script src="./script/main.js"></script>
+</body>
+
+</html>

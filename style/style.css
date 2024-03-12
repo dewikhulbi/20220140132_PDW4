@@ -1,0 +1,136 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk body */
+body {
+    display: flex; /* Menjadikan body sebagai flex container */
+    align-items: center; /* Posisi konten secara vertikal di tengah */
+    justify-content: center; /* Posisi konten secara horizontal di tengah */
+    min-height: 100vh; /* Memberikan tinggi minimum 100% dari viewport height */
+    background-color: #061329; /* Warna latar belakang hitam */
+}
+
+/* Styling untuk container */
+.container {
+    display: flex; /* Menjadikan container sebagai flex container */
+    flex-direction: column; /* Mengatur arah konten menjadi vertikal */
+    align-items: center; /* Posisi konten secara vertikal di tengah */
+    justify-content: center; /* Posisi konten secara horizontal di tengah */
+    padding: 20px; /* Padding pada container */
+}
+
+/* Styling untuk content */
+.content {
+    display: flex; /* Menjadikan content sebagai flex container */
+    justify-content: center; /* Posisi konten secara horizontal di tengah */
+    align-items: center; /* Posisi konten secara vertikal di tengah */
+    margin-top: 20px; /* Margin atas */
+}
+
+/* Styling untuk card */
+.card {
+    display: flex; /* Menjadikan card sebagai flex container */
+    flex-direction: column; /* Mengatur arah konten menjadi vertikal */
+    padding: 20px; /* Padding pada card */
+    border-radius: 20px; /* Mengatur radius border */
+    box-shadow: 0 0 20px rgba(221, 9, 9, 0.2); /* Bayangan pada card */
+    background: #000000; /* Warna latar belakang hitam */
+    animation: blink 1s infinite alternate; /* Menggunakan animasi 'blink' dengan durasi 1 detik, berulang dan bergantian */
+}
+
+/* Keyframes untuk animasi 'blink' */
+@keyframes blink {
+    0% {
+        background-color: #000; /* Warna latar belakang tetap hitam */
+    }
+    50% {
+        background-color: #d408ab; /* Warna latar belakang berubah menjadi pink di tengah animasi */
+    }
+    100% {
+        background-color: #052676; /* Warna latar belakang biru pada akhir animasi */
+    }
+}
+
+/* Styling untuk content container */
+.content-container {
+    display: flex; /* Menjadikan content container sebagai flex container */
+}
+
+/* Styling untuk gambar */
+.content-container img {
+    width: 50%; /* Lebar gambar setengah dari card */
+    border-radius: 40px; /* Mengatur radius border untuk gambar */
+    box-shadow: 0 0 20px rgb(255, 255, 255); /* Bayangan pada gambar */
+    height: 80vh; /* Tinggi gambar */
+}
+
+/* Styling untuk kotak login */
+.login {
+    flex: 1; /* Memberi fleksibilitas ke formulir login */
+    width: 50%; /* Mengatur lebar kotak login menjadi setengah dari parent */
+    height: auto; /* Mengatur tinggi kotak login agar menyesuaikan konten */
+    max-height: 40vh; /* Mengatur tinggi maksimal kotak login menjadi setengah dari tinggi viewport */
+    background-color: #fff9f9; /* Warna latar belakang */
+    padding: 20px; /* Padding pada kotak login */
+    border-radius: 40px; /* Mengatur radius border */
+    margin-left: 20px; /* Jarak antara gambar dan formulir login */
+}
+
+/* Styling untuk judul kotak login */
+.login h2 {
+    margin-bottom: 10px; /* Margin bawah */
+    color: #323131; /* Warna teks */
+}
+
+/* Styling untuk formulir login */
+.login form {
+    display: flex; /* Menjadikan form sebagai flex container */
+    flex-direction: column; /* Mengatur arah konten menjadi vertikal */
+}
+
+/* Styling untuk label pada formulir login */
+.login label {
+    margin-bottom: 5px; /* Margin bawah */
+    color: #908383; /* Warna teks */
+}
+
+/* Styling untuk input pada formulir login */
+.login input {
+    margin-bottom: 10px; /* Margin bawah */
+    padding: 8px; /* Padding */
+    border-radius: 5px; /* Mengatur radius border */
+    border: 1px solid #350bef; /* Warna border */
+}
+
+/* Styling untuk tombol login */
+.login button {
+    padding: 10px 10px; /* Padding */
+    border: none; /* Menghilangkan border */
+    border-radius: 5px; /* Mengatur radius border */
+    background-color: #07326e; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    cursor: pointer; /* Mengubah cursor saat hover */
+}
+
+/* Styling untuk teks pada content */
+.text {
+    color: #fcf5f5; /* Warna teks */
+    text-align: center; /* Posisi teks di tengah */
+}
+
+/* Styling untuk judul pada content */
+.text h1 {
+    font-size: 30px; /* Ukuran font */
+    margin-bottom: 10px; /* Margin bawah */
+    margin-top: 10px; /* Margin atas */
+}
+
+/* Styling untuk paragraf pada content */
+.text p {
+    font-size: 18px; /* Ukuran font */
+    line-height: 1.5; /* Tinggi baris */
+}
