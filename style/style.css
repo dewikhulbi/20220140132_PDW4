@@ -65,7 +65,7 @@ body {
     width: 50%; /* Lebar gambar setengah dari card */
     border-radius: 40px; /* Mengatur radius border untuk gambar */
     box-shadow: 0 0 20px rgb(255, 255, 255); /* Bayangan pada gambar */
-    height: 80vh; /* Tinggi gambar */
+    height: 100vh; /* Tinggi gambar */
 }
 
 /* Styling untuk kotak login */
